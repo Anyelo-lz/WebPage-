@@ -1,0 +1,168 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box;
+    background-color: rgb(90, 90, 90);
+}
+/*-------------titulo---------------*/
+h1{ 
+  
+    top: 20px;
+    text-align: right;
+    font-size: 55px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*-------------navegación---------------*/
+nav a{
+    display: inline;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 0);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+}  
+
+a:hover {
+    background: #fcffdc;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);}
+
+.home{
+    background-color: black;
+    color: white;
+}
+.home:hover{
+    background: #000000;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);}
+
+
+    /*------------Titulo dos---------------*/
+    h2{ position: relative;
+        bottom: 4px;
+        border: 15px solid yellow;
+        background-color: yellow;
+        color: black;
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+     }
+     /*---------------imagenes-----------------*/
+
+     .Logoindex{
+        position: relative;
+        bottom:125px;
+        left: 90px;
+        width: 150px;
+        border-radius: 20px;
+        border: 4px solid rgb(0, 0, 0);
+     }
+     /*--------------txt---------------*/
+     article{
+        position:relative;
+        bottom:100px;
+        text-align: center;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 20px;
+        color: white;
+     }
+     h3{
+        text-decoration: underline;
+     }
+
+     /*------------ABOUT----------*/
+
+     .about{
+        background-color: black;
+        color: white;
+    }
+     .about:hover{
+        background: #000000;
+        cursor: pointer;
+        box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);}
+
+        /*--------------ImagenAbout-----------------*/
+     .imag02{
+         
+        margin-left:3px;
+        width: 700px;
+        border: 5px solid rgb(0, 0, 0);
+        border-radius: 15px;
+       
+    }
+    .LogoAbout{
+        position: relative;
+        left: 294px;
+        bottom:400px;
+        width: 120px;
+        border-radius: 20px;
+        border: 4px solid rgb(0, 0, 0);
+    }
+
+          /*---------------TEXT_ABOUT----------------*/
+          .mision{
+            font-size:17px;
+            position: absolute;
+            position: relative;
+            margin-left:800px;
+            margin-right: 30px;
+            bottom:400px;
+          }
+           
+          .vision{
+            font-size:17px;
+            position: absolute;
+            position: relative;
+            margin-left:800px;
+            margin-right: 30px;
+            bottom:400px;
+          }     
+          .General{
+            font-size:17px;
+            position: absolute;
+            position: relative;
+            margin-left:800px;
+            margin-right: 30px;
+            bottom:400px;
+          }
+          /*______________Contact____________*/
+          .LogoContact{
+            position: relative;
+            left: 20%;
+            bottom:340px;
+            width: 130px;
+            width: 150px;
+            border-radius: 20px;
+            border: 4px solid rgb(0, 0, 0);
+          }
+          .img3{
+            margin-left:3px;
+            width: 700px;
+            border: 5px solid rgb(0, 0, 0);
+            border-radius: 15px;
+          }
+            .contact{
+                background-color: black;
+                color: white;
+            }
+             .contact:hover{
+                background: #000000;
+                cursor: pointer;
+                box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
+           
+          }
+          /*____________________textos________________*/
+           .email{
+            position: relative;
+            left: 750px;
+            bottom:350px;
+            font-size: 27px;
+            margin: 50px;
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+           }

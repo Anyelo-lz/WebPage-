@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;   
+    box-sizing: border-box;
+}
+       /*---------------------index-----------------------*/
+/*Titulo*/
+h1{
+    position: relative;
+    left: 20px;
+    top: 15px;
+    font-size: 70px;
+    margin: 0;
+  
+}
+/*navegadores*/
+header nav a{
+    display:inline;
+    position: relative;
+    left: 70%;
+    color: white;
+    background-color: #4d72b8;
+    border: 2px solid black;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px ;
+    margin:4px;
+    text-decoration: none;
+    
+    
+}
+.home{
+    background-color:rgb(102, 154, 23) ;
+}
+header nav a:hover{
+    background-color: rgb(102, 154, 23);
+
+}
+
+/* solo imagenes*/
+.Logoindex{
+    position:absolute;
+    width: 150px;
+    height: auto;
+    margin-top: 30px;
+    margin-left:30px;   
+}
+.img1{
+    width: 100%;
+}
+
+/*TEXTO*/
+h2{position:relative;
+    bottom: 5px;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+article{
+    margin: 40px;
+}
+p{
+    font-family:comi;
+    font-size: 20px;
+    position: relative;
+    left: 22vw;
+}
+h3{
+    
+    font-size: 20px;
+    position: relative;
+    left: 20vw;
+}
+/*--------------------------ABOUT------------------------------*/
+.imag02{
+    width: 120%;
+}
+.LogoAbout{
+    display: block;
+    position:absolute;
+    width: 150px;
+    height: auto;
+    margin-top: 30px;
+    margin-left:30px;  
+}
+
+.about{
+    background-color:rgb(102, 154, 23) ;
+}
+/*-----------------contact-----------------*/
+
+.LogoContact{
+    display: block;
+    position:absolute;
+    top: 160%;
+    width: 150px;
+    height: auto;
+    margin-top: 30px;
+    margin-left:80px;  
+}
+.img3{
+    width: 100%;
+}
+.email{
+    margin:50px;
+}
+.text{
+    margin-top: 20px;
+}
+.contact{
+    background-color:rgb(102, 154, 23) ;
+}
