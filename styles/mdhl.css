@@ -11,7 +11,7 @@
 }
 
 /*---------------------navegadores para todas las paginas--------------------*/
- 
+
 .contenedor {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
@@ -19,35 +19,41 @@
     gap: 15px;
     margin-right: 15px;
 }
-.home{
+
+.home {
     font-size: 18px;
     color: white;
     text-decoration: none;
-    padding:5px 10px;
+    padding: 5px 10px;
     border: 2px solid rgb(0, 0, 0);
     background-color: rgb(40, 132, 252);
 }
-.home:hover{
+
+.home:hover {
     background-color: rgb(0, 164, 0);
     box-shadow: 0px 0px 20px rgb(0, 0, 0);
 }
+
 /*-------------------Imagenes del Home---------------------*/
 .img1 {
     position: relative;
     z-index: -1;
     width: 100%;
     height: 50vh;
-    object-fit: cover; 
+    object-fit: cover;
 }
+
 .Logoindex {
     border: 1px solid black;
     margin: 30px;
     width: 150px;
     position: absolute;
 }
+
 header {
     margin-bottom: -15px;
 }
+
 /*------------------Texto del home-----------------------*/
 h1 {
     font-style: italic;
@@ -55,7 +61,8 @@ h1 {
     margin-left: 30px;
     font-family: 'Courier New', Courier, monospace;
 }
-h2 {    
+
+h2 {
     color: white;
     font-size: 28px;
     background-color: black;
@@ -64,14 +71,16 @@ h2 {
     padding: 8px 0px;
     font-family: 'Courier New', Courier, monospace;
 }
+
 .texthome {
     font-style: italic;
     font-size: 25px;
     margin: 2vw 20vw 1vw 25vw;
     font-family: 'Courier New', Courier, monospace;
 }
-.textP { 
-    font-size: 22px;  
+
+.textP {
+    font-size: 22px;
     margin: 1vw 20vw 1vw 27vw;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -86,13 +95,15 @@ h2 {
     object-fit: cover;
     object-position: 50% 15%;
 }
+
 .LogoAbout {
-margin: 2.5vw;
-display:flex;
-position:absolute;
-width:150px;
-border: 1px solid black;
+    margin: 2.5vw;
+    display: flex;
+    position: absolute;
+    width: 150px;
+    border: 1px solid black;
 }
+
 /*----------------Texto_About--------------------*/
 .textAbout {
     display: flex;
@@ -102,9 +113,11 @@ border: 1px solid black;
     font-size: 25px;
     text-indent: 20px;
 }
-.parrafoAbout{
+
+.parrafoAbout {
     margin-left: 2vw;
 }
+
 .tituloparrafo {
     font-size: 23px;
     margin: 20px;
@@ -119,13 +132,15 @@ border: 1px solid black;
     object-fit: cover;
     object-position: 50% 15%;
 }
+
 .LogoContact {
     margin: 2.5vw;
-    display:flex;
-    position:absolute;
-    width:150px;
+    display: flex;
+    position: absolute;
+    width: 150px;
     border: 1px solid black;
 }
+
 /*------------------Texto del contact-----------------------*/
 .email {
     display: flex;
@@ -134,103 +149,137 @@ border: 1px solid black;
     font-size: 23px;
     font-family: 'Courier New', Courier, monospace;
 }
+
 .Parrafo {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     margin-left: 15px;
     font-size: 23px;
     font-family: 'Courier New', Courier, monospace;
 }
+
 /*-------------------PAGINA DE Rules---------------------*/
 /*-----------------------LISTAS--------------------------*/
-
-.caja{
+.caja {
     margin: 5vw 0vw 0VW 0VW;
 }
-.tituloRules{
+
+.tituloRules {
     font-size: 25px;
-    text-align: center;    
+    text-align: center;
 }
-.textorule1{
+
+.textorule1 {
     text-align: justify;
     margin: 30px 18vw;
     font-size: 25px;
 }
-dl{
+
+dl {
     display: flex;
     flex-direction: column;
     text-align: justify;
     font-size: 24px;
-    margin:0vw 16vw;
+    margin: 0vw 16vw;
 }
-dt{ margin: 10px;
+
+dt {
+    margin: 10px;
     font-weight: bold;
 }
-dd{
+
+dd {
     text-indent: 30px;
 }
-ol{
+
+ol {
     margin: 3vw;
 }
-ul{
-    margin-left:  30px; 
+
+ul {
+    margin-left: 30px;
 }
-.allplay{
+
+.allplay {
     font-weight: bold;
-}.field{   
-    font-size: 24px;
-    margin:0vw 18vw;  
 }
-.list01{
-    margin:1vw 18vw;
+
+.field {
+    font-size: 24px;
+    margin: 0vw 18vw;
+}
+
+.list01 {
+    margin: 1vw 18vw;
     text-align: justify;
     font-size: 24px;
 }
-.letra{
-list-style-type:lower-latin;
-position: relative;
-bottom: 3vw;
+
+.letra {
+    list-style-type: lower-latin;
+    position: relative;
+    bottom: 3vw;
 }
-.textrules{
+
+.textrules {
     position: relative;
     bottom: 5vw;
 }
-.atleast{
+
+.atleast {
     text-indent: 30px;
 }
+
 /*------------------GAME información----------------*/
-.fall{   
+.fall {
+    display: flex;
+    justify-content: center;
+    margin: 5vw 37vw 1vw 1vw;
     font-style: italic;
     font-size: 25px;
-    margin: 10vw 2vw 1vw 25vw;
+
 }
-caption{
-    margin: 1vw;
-    font-size: 18px;
+
+.allgame {
+    display: flex;
+    justify-content: center;
+    margin: 1vw 26vw 1vw 1vw;
+    font-size: 20px;
     text-decoration: underline;
     font-style: italic;
 }
-table, tr, th, td{
-    padding: 1vw;
+
+table,
+tr,
+th,
+td {
+    padding: 2vw;
     border: 1px solid black;
-    border-collapse: collapse;   
+    border-collapse: collapse;
 }
-table{
+
+table {
+    font-family: 'Courier New', Courier, monospace;
     margin-left: auto;
     margin-right: auto;
 }
-.textgame{
-    font-weight: bold;   
+
+.textgame {
+    font-weight: bold;
 }
-.textgame1{
-display: inline-block;
-margin: 2vw 20vw 10vw;
+
+.textgame1 {
+    display: inline-block;
+    margin: 2vw 24vw 10vw;
 }
-.textcontiner{
+
+.textcontiner {
     display: flex;
     justify-content: space-between;
 }
-.textgame2{
-    font-size: 22px;
+
+.textgame2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
     margin: 1vw;
 }
