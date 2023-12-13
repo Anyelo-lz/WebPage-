@@ -142,9 +142,7 @@ border: 1px solid black;
 }
 /*-------------------PAGINA DE Rules---------------------*/
 /*-----------------------LISTAS--------------------------*/
-section{
-    font-family: 'Courier New', Courier, monospace;
-}
+
 .caja{
     margin: 5vw 0vw 0VW 0VW;
 }
@@ -152,8 +150,10 @@ section{
     font-size: 25px;
     text-align: center;    
 }
-.descripcion{
-    margin: 30px
+.textorule1{
+    text-align: justify;
+    margin: 30px 18vw;
+    font-size: 25px;
 }
 dl{
     display: flex;
