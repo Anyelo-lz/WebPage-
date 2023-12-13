@@ -253,6 +253,7 @@ table,
 tr,
 th,
 td {
+    text-align: center;
     padding: 2vw;
     border: 1px solid black;
     border-collapse: collapse;
@@ -279,7 +280,14 @@ table {
 }
 
 .textgame2 {
+     
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 19px;
     margin: 1vw;
+}
+.septiembre{
+    background-color: rgb(215, 201, 0);
+}
+.data{
+    background-color: rgb(209, 204, 136);
 }
