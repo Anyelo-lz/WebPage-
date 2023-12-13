@@ -13,6 +13,7 @@
 /*---------------------navegadores para todas las paginas--------------------*/
  
 .contenedor {
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: flex-end;
     gap: 15px;
