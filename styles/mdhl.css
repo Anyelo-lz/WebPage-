@@ -291,3 +291,67 @@ table {
 .data{
     background-color: rgb(209, 204, 136);
 }
+/*----------------------Formulario--------------------------*/
+fieldset{
+    background-color:rgb(196, 196, 196);
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 4vw 30vw;
+    gap: 1vw;
+    padding: 1vw;
+    border:none;
+}
+.registro{
+    
+    text-align: center;
+    font-size: 30px;
+}
+.contenedor01{
+    display:flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 1vw;
+    margin: 0 10vw 0 0;
+}
+.gender{
+    font-style: italic;
+    
+}
+legend{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.closest{
+    font-size: 20px;
+    font-weight: bold;
+}
+.Permission01{
+    font-size: 13px;
+}
+/*-------------------MAPAS-------------------*/
+.mapas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:3vw;
+}
+.mapa01{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(183, 183, 183);
+    padding: 2vw;
+    text-align: center;
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 1vw;
+    
+}
+.teams{
+    text-decoration: underline;
+}
+h4{
+    margin: 1vw;
+}
