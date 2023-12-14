@@ -289,49 +289,7 @@ table {
     background-color: rgb(215, 201, 0);
 }
 .data{
-    background-color: rgb(209, 204, 136);
-}
-/*----------------------Formulario--------------------------*/
-fieldset{
-    background-color:rgb(196, 196, 196);
-    font-size: 17px;
-    font-family: 'Courier New', Courier, monospace;
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 4vw 30vw;
-    gap: 1vw;
-    padding: 1vw;
-    border:none;
-}
-.registro{
-    
-    text-align: center;
-    font-size: 30px;
-}
-.contenedor01{
-    display:flex;
-    flex-direction: column;
-    text-align: right;
-    gap: 1vw;
-    margin: 0 10vw 0 0;
-}
-.gender{
-    font-style: italic;
-    
-}
-legend{
-    font-weight: bold;
-    font-size: 20px;
-
-}
-.closest{
-    font-size: 20px;
-    font-weight: bold;
-}
-.Permission01{
-    font-size: 13px;
+    background-color: rgb(255, 248, 155);
 }
 /*-------------------MAPAS-------------------*/
 .mapas{
@@ -342,10 +300,10 @@ legend{
 }
 .mapa01{
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(183, 183, 183);
+    background-color:rgb(255, 248, 155);
     padding: 2vw;
     text-align: center;
-    border: 1px solid rgb(155, 155, 155);
+    border: 1px solid rgb(143, 143, 143);
     border-radius: 1vw;
     
 }
@@ -355,3 +313,52 @@ legend{
 h4{
     margin: 1vw;
 }
+/*----------------------Formulario--------------------------*/
+.registro{
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+fieldset{
+    display: flex;
+    flex-direction:column;
+    background-color:rgb(196, 196, 196);
+    font-family:'Courier New', Courier, monospace;
+    margin: 5vw 30vw;
+    border:none;
+}
+.contenedordatos{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-end;
+    margin: 2vw;
+    padding-right: 8vw; 
+    gap: 1vw; 
+}
+ 
+/*-------------text formulario-------------------*/
+
+ .Subtitulos{
+    margin: 0vw 0vw 1vw 2vw;
+    font-size: 23px;
+    font-style: italic;
+    text-decoration: underline;
+ }
+.Subt{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 1vw;
+}
+.Permission01{
+    font-size: 13px;
+    padding: 0vw 1vw;
+}
+label{
+    padding-left:1vw;
+}
+.tutorfirma{
+    margin: 2vw;
+    font-weight: bold;
+}
+  
+ 
