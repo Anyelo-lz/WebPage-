@@ -1,4 +1,4 @@
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -280,85 +280,99 @@ table {
 }
 
 .textgame2 {
-     
+
     font-family: 'Courier New', Courier, monospace;
     font-size: 19px;
     margin: 1vw;
 }
-.septiembre{
+
+.septiembre {
     background-color: rgb(215, 201, 0);
 }
-.data{
+
+.data {
     background-color: rgb(255, 248, 155);
 }
+
 /*-------------------MAPAS-------------------*/
-.mapas{
+.mapas {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap:3vw;
+    gap: 2vw;
 }
-.mapa01{
+
+.mapa01 {
     font-family: 'Courier New', Courier, monospace;
-    background-color:rgb(255, 248, 155);
-    padding: 2vw;
+    background-color: rgb(255, 248, 155);
+    padding: 1vw;
     text-align: center;
     border: 1px solid rgb(143, 143, 143);
     border-radius: 1vw;
-    
+
 }
-.teams{
+
+.teams {
     text-decoration: underline;
 }
-h4{
+
+h4 {
     margin: 1vw;
+    font-size: 14px;
 }
+
 /*----------------------Formulario--------------------------*/
-.registro{
+.registro {
     font-weight: bold;
     text-align: center;
     font-size: 30px;
 }
-fieldset{
+
+fieldset {
     display: flex;
-    flex-direction:column;
-    background-color:rgb(196, 196, 196);
-    font-family:'Courier New', Courier, monospace;
+    flex-direction: column;
+    background-color: rgb(196, 196, 196);
+    font-family: 'Courier New', Courier, monospace;
     margin: 5vw 30vw;
-    border:none;
+    border: none;
+    border-radius: 10px;
 }
-.contenedordatos{
+
+.contenedordatos {
     display: flex;
-    flex-direction:column;
-    align-items:flex-end;
+    flex-direction: column;
+    align-items: flex-end;
     margin: 2vw;
-    padding-right: 8vw; 
-    gap: 1vw; 
+    padding-right: 7vw;
+    gap: 1vw;
 }
- 
+
 /*-------------text formulario-------------------*/
 
- .Subtitulos{
+.Subtitulos {
     margin: 0vw 0vw 1vw 2vw;
-    font-size: 23px;
-    font-style: italic;
+    font-size: 20px;
+
     text-decoration: underline;
- }
-.Subt{
+}
+
+.Subt {
     font-size: 15px;
     font-weight: bold;
     margin: 1vw;
 }
-.Permission01{
-    font-size: 13px;
+
+.Permission01 {
+    text-align: justify;
+    font-size: 10px;
     padding: 0vw 1vw;
 }
-label{
-    padding-left:1vw;
+
+label {
+    padding-left: 1vw;
 }
-.tutorfirma{
+
+.tutorfirma {
     margin: 2vw;
     font-weight: bold;
 }
-  
- 
